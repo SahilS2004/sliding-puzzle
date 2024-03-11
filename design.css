@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #323131;
+    color: white;
+    text-decoration: underline;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    gap: 2px;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+button {
+    background-color: rgb(28, 77, 137);
+    color: white;
+    padding: 1rem 8rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    border: 1px solid grey;
+    box-shadow: 0.2rem 0.2rem 0.2rem red;
+}
+hr {
+    width: 100%;
+}
+.image {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-image: url(flower.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30rem;
+}
+
+.acc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
